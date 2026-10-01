@@ -25,23 +25,23 @@
           "what": "Chisos Basin Campground (60 sites; most sites)",
           "type": "rolling",
           "rule": "Reservable year-round on Recreation.gov; some sites 6 months ahead, others 2 weeks ahead. All sites require reservation (no first-come, first-served). Chisos Basin construction projects start spring 2026 for ~2 years; expect access disruptions (NPS).",
-          "release_time": "UNVERIFIED (not stated on NPS or Recreation.gov campground page; Seasons & Booking tab is JS-rendered and could not be read)",
-          "tz": "UNVERIFIED",
+          "release_time": "09:00 AM CDT daily (Recreation.gov Seasons & Booking tab, observed 2026-10-01; = 10:00 AM Eastern)",
+          "tz": "America/Chicago (Central)",
           "source": "https://www.recreation.gov/camping/campgrounds/234038",
           "verified_on": "2026-10-01",
           "kind": "campground",
-          "status": "partial"
+          "status": "verified"
         },
         {
           "what": "Chisos Basin Campground (2-week sites: 8-10, 12-15, 31, 37 (accessible), 48-60)",
           "type": "rolling",
           "rule": "These sites are reservable up to 14 days (two weeks) in advance (rolling daily window); the remaining sites use the longer 6-month window.",
-          "release_time": "UNVERIFIED",
-          "tz": "UNVERIFIED",
+          "release_time": "09:00 AM CDT daily (Recreation.gov, observed 2026-10-01)",
+          "tz": "America/Chicago (Central)",
           "source": "https://www.recreation.gov/camping/campgrounds/234038",
           "verified_on": "2026-10-01",
           "kind": "campground",
-          "status": "partial"
+          "status": "verified"
         },
         {
           "what": "Backcountry permits (Chisos backpacking, primitive roadside, desert backpacking)",
@@ -82,7 +82,7 @@
           "start": "2026-11-01T09:00",
           "tz": "America/Chicago",
           "rrule": "FREQ=MONTHLY;BYMONTHDAY=1",
-          "times_verified": false,
+          "times_verified": true,
           "tag": null
         }
       ]
@@ -209,23 +209,23 @@
           "what": "Watchman Campground",
           "type": "rolling",
           "rule": "Open year-round. Standard sites reservable up to 6 months ahead on Recreation.gov (NPS page updated 2026-05-21; Rec.gov: 'Reservations are available 6 months in advance'). Earlier 'groups 12 months' note not re-confirmed.",
-          "release_time": "UNVERIFIED (not stated on NPS or Rec.gov text)",
-          "tz": "UNVERIFIED (Rec.gov cancellation deadlines use Eastern Time; that is not the release time)",
+          "release_time": "09:00 AM CDT daily as shown by Recreation.gov (= 8:00 AM Mountain / 10:00 AM Eastern), observed 2026-10-01",
+          "tz": "America/Denver (Mountain)",
           "source": "https://www.nps.gov/zion/planyourvisit/watchman-campground.htm",
           "verified_on": "2026-10-01",
           "kind": "campground",
-          "status": "partial"
+          "status": "verified"
         },
         {
           "what": "South Campground (seasonal; reopened May 29, 2026)",
           "type": "rolling",
           "rule": "All sites require reservation; bookable up to 14 days ahead on Recreation.gov (e.g. book Mar 1 for Mar 14-16); no first-come, first-served. Open ~early/mid-March to Oct 31. For longer lead time use Watchman (6 months). Rec.gov campground ID 272266.",
-          "release_time": "UNVERIFIED (not stated on NPS or Rec.gov text)",
-          "tz": "UNVERIFIED",
+          "release_time": "09:00 AM CDT daily as shown by Recreation.gov (= 8:00 AM Mountain / 10:00 AM Eastern), observed 2026-10-01",
+          "tz": "America/Denver (Mountain)",
           "source": "https://www.recreation.gov/camping/campgrounds/272266",
           "verified_on": "2026-10-01",
           "kind": "campground",
-          "status": "partial"
+          "status": "verified"
         }
       ],
       "winter": {
@@ -286,7 +286,7 @@
           "start": "2026-11-01T08:00",
           "tz": "America/Denver",
           "rrule": "FREQ=MONTHLY;BYMONTHDAY=1",
-          "times_verified": false,
+          "times_verified": true,
           "tag": null
         }
       ]
@@ -377,12 +377,12 @@
           "what": "Reservation campgrounds (Apgar, Many Glacier, Fish Creek, Avalanche, St. Mary, Two Medicine, Sprague Creek; 8 of 13 campgrounds)",
           "type": "rolling",
           "rule": "Sites become reservable on a rolling basis 6 months ahead of the stay date on Recreation.gov; a certain number of sites reservable 4 days ahead. All sites at these campgrounds require reservation. (NPS page updated 2026-07-09; Rec.gov Apgar/Many Glacier pages: 'Most sites have a 6-month booking window with a good handful having a 4-day booking window'.) Group sites: Apgar groups 6 months ahead (NPS FAQ, post-summer 2024); St. Mary group site was 1 year ahead per FAQ (not re-confirmed).",
-          "release_time": "UNVERIFIED (not stated on NPS or Rec.gov text; the generic Rec.gov article says most campgrounds go on sale 7am PT/8am MT/10am ET 'but not always')",
-          "tz": "UNVERIFIED (park is Mountain Time)",
+          "release_time": "09:00 AM CDT daily (= 8:00 AM Mountain / 10:00 AM Eastern) shown on Recreation.gov for Apgar, St. Mary and Many Glacier; NOT stated for Fish Creek, Two Medicine, Avalanche, Sprague Creek (observed 2026-10-01)",
+          "tz": "America/Denver (Mountain)",
           "source": "https://www.nps.gov/glac/planyourvisit/reservation-campgrounds.htm",
           "verified_on": "2026-10-01",
           "kind": "campground",
-          "status": "partial"
+          "status": "verified"
         },
         {
           "what": "Wilderness (backcountry) permits - 2026 season",
@@ -433,7 +433,7 @@
           "start": "2026-11-01T08:00",
           "tz": "America/Denver",
           "rrule": "FREQ=MONTHLY;BYMONTHDAY=1",
-          "times_verified": false,
+          "times_verified": true,
           "tag": null
         },
         {

@@ -55,18 +55,20 @@ TZOFFSETTO:-0700
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:Glacier: check campground 6-month rolling window + 4-day sites [TI
- ME UNVERIFIED]
+SUMMARY:Glacier: check campground 6-month rolling window + 4-day sites
 DTSTART;TZID=America/Denver:20261101T080000
 DTEND;TZID=America/Denver:20261101T083000
 DTSTAMP:20261001T000000Z
 UID:glacier-4f892a6af8@bookdayparks.example
 RRULE:FREQ=MONTHLY;BYMONTHDAY=1
 DESCRIPTION:Rolling: most sites 6 months ahead (daily)\, some 4 days ahead
-  (confirmed on NPS). RELEASE TIME UNVERIFIED - 8:00 MT is a placeholder. h
- ttps://nps.gov/glac/planyourvisit/reservation-campgrounds.htm\n\nVerified 
- 2026-10-01. Dates and rules change. Always verify on the official site bef
- ore booking. Not affiliated with NPS or Recreation.gov.
+  (confirmed on NPS). Release time: 8:00 AM Mountain daily (Recreation.gov 
+ shows 9:00 AM CDT = 10:00 AM Eastern) for Apgar\, St. Mary and Many Glacie
+ r\, observed 2026-10-01\; the Fish Creek\, Two Medicine\, Avalanche and Sp
+ rague Creek pages do not state a time. https://www.recreation.gov/camping/
+ campgrounds/10171274?tab=seasons\n\nVerified 2026-10-01. Dates and rules c
+ hange. Always verify on the official site before booking. Not affiliated w
+ ith NPS or Recreation.gov.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Glacier: check campground 6-month rolling window + 4-day sites

@@ -148,19 +148,19 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Zion: check Watchman (6-mo) / South (14-day) campground windows [T
- IME UNVERIFIED]
+SUMMARY:Zion: check Watchman (6-mo) / South (14-day) campground windows
 DTSTART;TZID=America/Denver:20261101T080000
 DTEND;TZID=America/Denver:20261101T083000
 DTSTAMP:20261001T000000Z
 UID:zion-ef7f1478ae@bookdayparks.example
 RRULE:FREQ=MONTHLY;BYMONTHDAY=1
 DESCRIPTION:Rolling windows: Watchman 6 months ahead\; South 14 days ahead
-  (both confirmed on NPS/Rec.gov). RELEASE TIME UNVERIFIED - 8:00 MT is a p
- laceholder. Verify: Watchman https://www.recreation.gov/camping/campground
- s/232445 \; South https://www.recreation.gov/camping/campgrounds/272266\n
- \nVerified 2026-10-01. Dates and rules change. Always verify on the offici
- al site before booking. Not affiliated with NPS or Recreation.gov.
+  (both confirmed on NPS/Rec.gov). Release time: 8:00 AM Mountain daily (Re
+ creation.gov shows 9:00 AM CDT = 10:00 AM Eastern)\, observed 2026-10-01. 
+ Watchman https://www.recreation.gov/camping/campgrounds/232445?tab=seasons
+  \; South https://www.recreation.gov/camping/campgrounds/272266?tab=season
+ s\n\nVerified 2026-10-01. Dates and rules change. Always verify on the off
+ icial site before booking. Not affiliated with NPS or Recreation.gov.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Zion: check Watchman (6-mo) / South (14-day) campground window
