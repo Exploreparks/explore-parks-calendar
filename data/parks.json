@@ -1,0 +1,1226 @@
+{
+  "product": "BookDay Parks (working name)",
+  "date_verified": "2026-10-01",
+  "disclaimer": "Dates and rules change. Always verify on the official site before booking. Not affiliated with NPS or Recreation.gov.",
+  "status_legend": {
+    "verified": "rule read on a fetched official NPS/Recreation.gov page",
+    "verified-snippet": "rule seen only in official-page text returned by search; page not fully fetched",
+    "partial": "rule verified but release time or other detail not stated",
+    "unverified": "not found/not researched on official pages"
+  },
+  "parks": [
+    {
+      "id": "big-bend",
+      "name": "Big Bend NP",
+      "tz": "America/Chicago",
+      "sources": [
+        "https://nps.gov/bibe/planyourvisit/basin_campground.htm",
+        "https://www.nps.gov/bibe/planyourvisit/bc_usepermits.htm",
+        "https://www.nps.gov/bibe/planyourvisit/permitsandreservations.htm",
+        "https://www.recreation.gov/camping/campgrounds/234038"
+      ],
+      "date_verified": "2026-10-01",
+      "rules": [
+        {
+          "what": "Chisos Basin Campground (60 sites; most sites)",
+          "type": "rolling",
+          "rule": "Reservable year-round on Recreation.gov; some sites 6 months ahead, others 2 weeks ahead. All sites require reservation (no first-come, first-served). Chisos Basin construction projects start spring 2026 for ~2 years; expect access disruptions (NPS).",
+          "release_time": "UNVERIFIED (not stated on NPS or Recreation.gov campground page; Seasons & Booking tab is JS-rendered and could not be read)",
+          "tz": "UNVERIFIED",
+          "source": "https://www.recreation.gov/camping/campgrounds/234038",
+          "verified_on": "2026-10-01",
+          "kind": "campground",
+          "status": "partial"
+        },
+        {
+          "what": "Chisos Basin Campground (2-week sites: 8-10, 12-15, 31, 37 (accessible), 48-60)",
+          "type": "rolling",
+          "rule": "These sites are reservable up to 14 days (two weeks) in advance (rolling daily window); the remaining sites use the longer 6-month window.",
+          "release_time": "UNVERIFIED",
+          "tz": "UNVERIFIED",
+          "source": "https://www.recreation.gov/camping/campgrounds/234038",
+          "verified_on": "2026-10-01",
+          "kind": "campground",
+          "status": "partial"
+        },
+        {
+          "what": "Backcountry permits (Chisos backpacking, primitive roadside, desert backpacking)",
+          "type": "rolling / in-person",
+          "rule": "NPS (page updated 2026-07-20): a permit is required for ALL backcountry camping. Normally issued in person at Panther Junction 24h before first night (8:30 am-5:00 pm daily); some roadside + Chisos sites bookable online up to 180 days ahead on Recreation.gov (1-877-444-6777). BUT 'until further notice' (rain/road closures) ALL backcountry campsites are in-person only at Panther Junction; Chisos Mountains sites in-person only May 1-Oct 31. $10/night. Max 14 consecutive nights. Pre-booked Rec.gov permits cannot be changed by park staff.",
+          "release_time": "Online release time UNVERIFIED; in-person 8:30 am-5:00 pm",
+          "tz": "Park local (America/Chicago) for in-person hours; online release tz UNVERIFIED",
+          "source": "https://www.nps.gov/bibe/planyourvisit/bc_usepermits.htm",
+          "verified_on": "2026-10-01",
+          "kind": "system",
+          "status": "verified"
+        }
+      ],
+      "winter": {
+        "summary": "Winter is Big Bend's main season (NPS: Oct-Apr). Nov-Apr all park campgrounds and the Chisos lodge are full every night; reservations required, no first-come camping. Mild and usually sunny, freezing spells possible, snow rare. Jan 1-Apr 15: 14-night park limit. Backcountry permits currently in person only at Panther Junction. Chisos Basin construction runs ~2 years from spring 2026.",
+        "notes": [
+          "Primary visitor season October-April; Thanksgiving, Christmas-New Year, spring break and holiday weekends busiest (NPS advice-for-busy-times, page updated 2024-11-18).",
+          "Nov-Apr: Chisos Mountains Lodge and all developed campgrounds full every night; online reservations up to 6 months ahead, a limited number 14 days ahead; no first-come sites, no overflow/boondocking.",
+          "Rio Grande Village Campground open year-round, prime season Nov 1-Apr 30 (reduced to 25 sites May-Oct) - from NPS page excerpt; winter highs mid-70s to low 80s F.",
+          "Jan 1-Apr 15: limited to 14 total nights in the park (NPS camping page, updated 2026-07-20).",
+          "Backcountry: 'until further notice' all backcountry campsites in person only at Panther Junction (24h ahead); Chisos Mountains sites in person only May 1-Oct 31 (NPS bc_usepermits page, updated 2026-07-20).",
+          "Chisos Basin construction projects begin spring 2026 for ~2 years; expect access disruptions (NPS Chisos Basin campground page, updated 2026-01-30).",
+          "Winter-specific reservation/permit dates: none found on official pages."
+        ],
+        "sources": [
+          "https://www.nps.gov/bibe/advice-for-busy-times.htm",
+          "https://www.nps.gov/bibe/planyourvisit/camping.htm",
+          "https://www.nps.gov/bibe/planyourvisit/bc_usepermits.htm",
+          "https://www.nps.gov/bibe/planyourvisit/basin_campground.htm",
+          "https://www.nps.gov/bibe/faqs.htm"
+        ],
+        "date_verified": "2026-10-01",
+        "status": "verified"
+      },
+      "calendar_events": [
+        {
+          "title": "Big Bend: check Chisos Basin 6-month window + backcountry permits",
+          "start": "2026-11-01T09:00",
+          "tz": "America/Chicago",
+          "rrule": "FREQ=MONTHLY;BYMONTHDAY=1",
+          "times_verified": false,
+          "tag": null
+        }
+      ]
+    },
+    {
+      "id": "yosemite",
+      "name": "Yosemite NP",
+      "tz": "America/Los_Angeles",
+      "sources": [
+        "https://www.nps.gov/yose/planyourvisit/camping.htm",
+        "https://www.recreation.gov/camping/campgrounds/232447",
+        "https://www.nps.gov/yose/planyourvisit/hdpermits.htm"
+      ],
+      "date_verified": "2026-10-01",
+      "rules": [
+        {
+          "what": "Upper Pines, Lower Pines, North Pines*, Wawona, Hodgdon Meadow campgrounds",
+          "type": "monthly block",
+          "rule": "Released 5 months ahead on the 15th of each month; each release covers arrivals from the 15th through the 14th of the following month (e.g. Jan 15 -> May 15-Jun 14 arrivals). *North Pines used a one-time early-access lottery for 2026; leftovers on normal dates.",
+          "release_time": "7:00 am",
+          "tz": "America/Los_Angeles (Pacific)",
+          "kind": "campground",
+          "source": "https://www.nps.gov/yose/planyourvisit/camping.htm",
+          "verified_on": "2026-10-01",
+          "status": "verified"
+        },
+        {
+          "what": "Tuolumne Meadows Campground",
+          "type": "monthly block + rolling",
+          "rule": "Half of sites released 2 months ahead on the 15th (Jun 15, Jul 15, Aug 15 per NPS table); other half on a rolling 14-day window.",
+          "release_time": "7:00 am",
+          "tz": "America/Los_Angeles (Pacific)",
+          "kind": "campground",
+          "source": "https://www.nps.gov/yose/planyourvisit/camping.htm",
+          "verified_on": "2026-10-01",
+          "status": "verified"
+        },
+        {
+          "what": "Half Dome day-hike permits (cables up ~late May to mid-Oct)",
+          "type": "lottery (preseason + daily)",
+          "rule": "Preseason lottery on Recreation.gov: apply Mar 1-Mar 31 (eastern time), 225 permits/day, results mid-April, up to 6 people/application, $10 non-refundable application fee + $10/person if awarded. Daily lottery: apply 2 days before the hike, midnight-4 pm Pacific, results that night. NPS page last updated 2025-06-03: 2027 dates/fees not re-confirmed.",
+          "release_time": "Preseason: Mar 1-31 (eastern); daily: midnight-4 pm",
+          "tz": "America/New_York (preseason); America/Los_Angeles (daily)",
+          "source": "https://www.nps.gov/yose/planyourvisit/hdpermits.htm",
+          "verified_on": "2026-10-01",
+          "kind": "system",
+          "status": "verified"
+        }
+      ],
+      "winter": {
+        "summary": "Winter details NOT researched (UNVERIFIED). NPS says no advance reservations in 2026, including the Feb-March firefall period.",
+        "notes": [
+          "NPS Feb 18 2026 release: Yosemite will not require advance reservations in 2026, including Feb-March firefall."
+        ],
+        "sources": [
+          "https://www.nps.gov/orgs/1207/national-park-service-expands-access-for-summer-2026-while-maintaining-safety-at-high-visitation-parks.htm"
+        ],
+        "date_verified": "2026-10-01",
+        "status": "unverified"
+      },
+      "calendar_events": [
+        {
+          "title": "Yosemite: 5-month campground release (Upper/Lower/North Pines, Wawona, Hodgdon)",
+          "start": "2026-10-15T07:00",
+          "tz": "America/Los_Angeles",
+          "rrule": "FREQ=MONTHLY;BYMONTHDAY=15",
+          "times_verified": true,
+          "tag": null
+        },
+        {
+          "title": "Yosemite: Tuolumne Meadows 2-month release",
+          "start": "2027-06-15T07:00",
+          "tz": "America/Los_Angeles",
+          "rrule": "FREQ=YEARLY;BYMONTH=6,7,8;BYMONTHDAY=15",
+          "times_verified": true,
+          "tag": null
+        },
+        {
+          "title": "Yosemite: Half Dome day-hike preseason lottery OPENS (Mar 1-31, ET)",
+          "start": "2027-03-01",
+          "tz": "America/New_York",
+          "rrule": "FREQ=YEARLY;BYMONTH=3;BYMONTHDAY=1",
+          "times_verified": true,
+          "tag": "[2027 DATES UNCONFIRMED]"
+        }
+      ]
+    },
+    {
+      "id": "zion",
+      "name": "Zion NP",
+      "tz": "America/Denver",
+      "sources": [
+        "https://www.nps.gov/zion/planyourvisit/angels-landing-hiking-permits.htm",
+        "https://www.nps.gov/zion/planyourvisit/watchman-campground.htm",
+        "https://www.nps.gov/zion/planyourvisit/south-campground.htm",
+        "https://www.recreation.gov/camping/campgrounds/232445",
+        "https://www.recreation.gov/camping/campgrounds/272266"
+      ],
+      "date_verified": "2026-10-01",
+      "rules": [
+        {
+          "what": "Angels Landing day-before lottery",
+          "type": "lottery (daily)",
+          "rule": "Apply the day before your hike, 12:01 am to 3:00 pm MT; results/permits issued after 4 pm MT. $6 application fee (up to 6 people).",
+          "release_time": "Opens 12:01 am, closes 3:00 pm",
+          "tz": "America/Denver (Mountain)",
+          "kind": "system",
+          "source": "https://www.nps.gov/zion/planyourvisit/angels-landing-hiking-permits.htm",
+          "verified_on": "2026-10-01",
+          "status": "verified"
+        },
+        {
+          "what": "Angels Landing seasonal lottery (2026 dates)",
+          "type": "lottery (seasonal)",
+          "rule": "Dec 1, 2026-Feb 28, 2027 hikes: opens Oct 1, closes Oct 20, permits issued Oct 25. Earlier 2026 windows: Feb 13-25 (Mar-May), Apr 1-20 (Jun-Aug), Jul 1-20 (Sep-Nov). 2027 dates NOT yet published on page - do not assume repeat.",
+          "release_time": "Opens 8:00 am; closes 11:59 pm",
+          "tz": "America/Denver (Mountain)",
+          "kind": "system",
+          "source": "https://www.nps.gov/zion/planyourvisit/angels-landing-hiking-permits.htm",
+          "verified_on": "2026-10-01",
+          "status": "verified"
+        },
+        {
+          "what": "Watchman Campground",
+          "type": "rolling",
+          "rule": "Open year-round. Standard sites reservable up to 6 months ahead on Recreation.gov (NPS page updated 2026-05-21; Rec.gov: 'Reservations are available 6 months in advance'). Earlier 'groups 12 months' note not re-confirmed.",
+          "release_time": "UNVERIFIED (not stated on NPS or Rec.gov text)",
+          "tz": "UNVERIFIED (Rec.gov cancellation deadlines use Eastern Time; that is not the release time)",
+          "source": "https://www.nps.gov/zion/planyourvisit/watchman-campground.htm",
+          "verified_on": "2026-10-01",
+          "kind": "campground",
+          "status": "partial"
+        },
+        {
+          "what": "South Campground (seasonal; reopened May 29, 2026)",
+          "type": "rolling",
+          "rule": "All sites require reservation; bookable up to 14 days ahead on Recreation.gov (e.g. book Mar 1 for Mar 14-16); no first-come, first-served. Open ~early/mid-March to Oct 31. For longer lead time use Watchman (6 months). Rec.gov campground ID 272266.",
+          "release_time": "UNVERIFIED (not stated on NPS or Rec.gov text)",
+          "tz": "UNVERIFIED",
+          "source": "https://www.recreation.gov/camping/campgrounds/272266",
+          "verified_on": "2026-10-01",
+          "kind": "campground",
+          "status": "partial"
+        }
+      ],
+      "winter": {
+        "summary": "Zion is open year-round and winter is quiet but real: daytime ~30-60F. Canyon shuttles stop Nov 29-Dec 25 and again after Jan 2 until spring, so private vehicles can drive Zion Canyon Scenic Drive (parking limited; road can close when full); shuttles run Dec 26-Jan 2. Angels Landing still needs a permit and is dangerous when icy; the Dec-Feb seasonal lottery runs Oct 1-20. Watchman is open year-round; South and Lava Point close; Kolob Terrace/Lava Point roads typically closed fall-spring.",
+        "notes": [
+          "Shuttle (2026-27 NPS schedule, page updated 2026-07-01): Oct 25-Nov 28 reduced hours; Nov 29-Dec 25 no service; Dec 26-Jan 2 service (8 am-4:30 pm); after Jan 2 no service until spring (typically March).",
+          "Private vehicles may drive the Scenic Drive only outside shuttle season (NPS: usually December-February); not during the Dec 26-Jan 2 holiday shuttle. If parking fills the NPS may temporarily close the road.",
+          "Angels Landing: permit required all times of year; winter hikes (Dec 1-Feb 28) via seasonal lottery Oct 1-20 (permits Oct 25) or day-before lottery; ice/snow may make the trail impassable (Rec.gov/NPS permit pages).",
+          "Watchman Campground open year-round, reservable 6 months ahead; South Campground and Lava Point close seasonally (NPS conditions page, updated 2026-09-16).",
+          "Kolob Terrace Road usually closed for months fall-spring (gate at Maloney Hill); Lava Point Road typically closed fall into spring; Kolob Canyons Road closes frequently in winter; Zion-Mt. Carmel Hwy kept open year-round but sometimes closes (snow/ice/rockfall).",
+          "Long-term closures: Hidden Canyon closed; Observation Point not reachable from Zion Canyon (East Rim rockfall). Winter daytime temps typically 30-60F."
+        ],
+        "sources": [
+          "https://www.nps.gov/zion/planyourvisit/zion-canyon-shuttle-system.htm",
+          "https://www.nps.gov/zion/planyourvisit/conditions.htm",
+          "https://www.nps.gov/zion/planyourvisit/angels-landing-hiking-permits.htm",
+          "https://www.recreation.gov/permits/4675326",
+          "https://www.nps.gov/zion/learn/news/2025-11-28-winter-shuttles.htm"
+        ],
+        "date_verified": "2026-10-01",
+        "status": "verified"
+      },
+      "calendar_events": [
+        {
+          "title": "Zion: Angels Landing day-before lottery CLOSES 3pm MT",
+          "start": "2026-10-02T15:00",
+          "tz": "America/Denver",
+          "rrule": "FREQ=DAILY",
+          "times_verified": true,
+          "tag": null
+        },
+        {
+          "title": "Zion: Angels Landing seasonal lottery OPENS (Dec 2026-Feb 2027 hikes)",
+          "start": "2026-10-01T08:00",
+          "tz": "America/Denver",
+          "rrule": null,
+          "times_verified": true,
+          "tag": null
+        },
+        {
+          "title": "Zion: Angels Landing seasonal lottery CLOSES (11:59pm MT)",
+          "start": "2026-10-20T23:59",
+          "tz": "America/Denver",
+          "rrule": null,
+          "times_verified": true,
+          "tag": null
+        },
+        {
+          "title": "Zion: Angels Landing seasonal permits issued",
+          "start": "2026-10-25T08:00",
+          "tz": "America/Denver",
+          "rrule": null,
+          "times_verified": true,
+          "tag": null
+        },
+        {
+          "title": "Zion: check Watchman (6-mo) / South (14-day) campground windows",
+          "start": "2026-11-01T08:00",
+          "tz": "America/Denver",
+          "rrule": "FREQ=MONTHLY;BYMONTHDAY=1",
+          "times_verified": false,
+          "tag": null
+        }
+      ]
+    },
+    {
+      "id": "grand-canyon",
+      "name": "Grand Canyon NP",
+      "tz": "America/Phoenix",
+      "sources": [
+        "https://www.nps.gov/grca/planyourvisit/backcountry-permit.htm",
+        "https://www.grandcanyonlodges.com/lodging/phantom-ranch/"
+      ],
+      "date_verified": "2026-10-01",
+      "rules": [
+        {
+          "what": "Backcountry permits (incl. Corridor campgrounds: Bright Angel, Havasupai Gardens, Cottonwood)",
+          "type": "lottery + monthly block",
+          "rule": "Early-access lottery on Recreation.gov opens the 16th, closes the 1st at 5 pm MST, for start dates 4 months later (e.g. Jan 1 close -> May starts). Results the 2nd. Up to 750 winners get early time slots; everyone else gets access/public release 8 am MST on the 1st of the following month. Cancellations bookable up to 5 days ahead; last-minute Havasupai Gardens permits in person. Opening time on the 16th not stated.",
+          "release_time": "Lottery closes 5:00 pm; public release 8:00 am",
+          "tz": "MST (America/Phoenix, no DST)",
+          "kind": "system",
+          "source": "https://www.nps.gov/grca/planyourvisit/backcountry-permit.htm",
+          "verified_on": "2026-10-01",
+          "status": "partial"
+        },
+        {
+          "what": "Phantom Ranch lodging (cabins/dorms, Xanterra)",
+          "type": "lottery",
+          "rule": "Operated by Xanterra, not NPS; lottery-based. Only verified item: hiker dorms reopen Sep 1, 2026; Sep 2026-Jul 2027 stays opened 7:00 am MT Jul 8, 2026; Aug 2027 stays 12:00 am MT Aug 1, 2026; 'normal lottery schedule' resumes for Sep 2027+. Normal lottery calendar NOT verified.",
+          "release_time": "UNVERIFIED (normal schedule)",
+          "tz": "UNVERIFIED",
+          "kind": "system",
+          "source": "https://www.nps.gov/grca/planyourvisit/backcountry-permit.htm",
+          "verified_on": "2026-10-01",
+          "status": "unverified"
+        }
+      ],
+      "winter": {
+        "summary": "Winter details NOT researched (UNVERIFIED).",
+        "notes": [
+          "Not researched."
+        ],
+        "sources": [],
+        "date_verified": "2026-10-01",
+        "status": "unverified"
+      },
+      "calendar_events": [
+        {
+          "title": "Grand Canyon: backcountry early-access lottery OPENS (start month +5)",
+          "start": "2026-10-16",
+          "tz": "America/Phoenix",
+          "rrule": "FREQ=MONTHLY;BYMONTHDAY=16",
+          "times_verified": true,
+          "tag": null
+        },
+        {
+          "title": "Grand Canyon: backcountry lottery CLOSES 5pm MST",
+          "start": "2026-11-01T17:00",
+          "tz": "America/Phoenix",
+          "rrule": "FREQ=MONTHLY;BYMONTHDAY=1",
+          "times_verified": true,
+          "tag": null
+        },
+        {
+          "title": "Grand Canyon: backcountry permits open to public 8am MST",
+          "start": "2026-11-01T08:00",
+          "tz": "America/Phoenix",
+          "rrule": "FREQ=MONTHLY;BYMONTHDAY=1",
+          "times_verified": true,
+          "tag": null
+        }
+      ]
+    },
+    {
+      "id": "glacier",
+      "name": "Glacier NP",
+      "tz": "America/Denver",
+      "sources": [
+        "https://nps.gov/glac/planyourvisit/reservation-campgrounds.htm",
+        "https://www.recreation.gov/camping/campgrounds/10171274",
+        "https://www.nps.gov/glac/planyourvisit/backcountry-reservations.htm",
+        "https://www.nps.gov/glac/planyourvisit/vehicle-reservations2026.htm",
+        "https://www.nps.gov/glac/learn/news/glacier-national-park-announces-2026-summer-operations.htm"
+      ],
+      "date_verified": "2026-10-01",
+      "rules": [
+        {
+          "what": "Reservation campgrounds (Apgar, Many Glacier, Fish Creek, Avalanche, St. Mary, Two Medicine, Sprague Creek; 8 of 13 campgrounds)",
+          "type": "rolling",
+          "rule": "Sites become reservable on a rolling basis 6 months ahead of the stay date on Recreation.gov; a certain number of sites reservable 4 days ahead. All sites at these campgrounds require reservation. (NPS page updated 2026-07-09; Rec.gov Apgar/Many Glacier pages: 'Most sites have a 6-month booking window with a good handful having a 4-day booking window'.) Group sites: Apgar groups 6 months ahead (NPS FAQ, post-summer 2024); St. Mary group site was 1 year ahead per FAQ (not re-confirmed).",
+          "release_time": "UNVERIFIED (not stated on NPS or Rec.gov text; the generic Rec.gov article says most campgrounds go on sale 7am PT/8am MT/10am ET 'but not always')",
+          "tz": "UNVERIFIED (park is Mountain Time)",
+          "source": "https://www.nps.gov/glac/planyourvisit/reservation-campgrounds.htm",
+          "verified_on": "2026-10-01",
+          "kind": "campground",
+          "status": "partial"
+        },
+        {
+          "what": "Wilderness (backcountry) permits - 2026 season",
+          "type": "lottery + rolling",
+          "rule": "Permit required for all overnight backcountry camping. ~70% of sites reservable in advance on Recreation.gov, ~30% walk-up (day before/day of, at a permit office). 2026: early-access lotteries - large groups (9-12, 5 reservations) applications Mar 1, 2026 12:00 am-11:59 pm MT; standard groups (1-8) applications Mar 15, 2026 12:00 am-11:59 pm MT (lottery winners notified Mar 17; may book Mar 21-Apr 30). $10 non-refundable lottery fee. General on-sale: May 1, 2026 at 8:00 MT through Sep 30, 2026 for remaining sites. Permit $10 + $7/person/night (May 1-Oct 31); free in winter (Nov 1-Apr 30). 2027 dates NOT yet published on the page (last updated 2026-02-23) - do not assume a repeat.",
+          "release_time": "Lottery 12:00 am-11:59 pm; general on-sale 8:00 am",
+          "tz": "America/Denver (Mountain)",
+          "source": "https://www.nps.gov/glac/planyourvisit/backcountry-reservations.htm",
+          "verified_on": "2026-10-01",
+          "kind": "system",
+          "status": "verified"
+        },
+        {
+          "what": "Vehicle reservations (Going-to-the-Sun Road) + Logan Pass shuttle",
+          "type": "status",
+          "rule": "2026: NO vehicle reservations required anywhere in the park (NPS, updated 2026-06-22). Instead: ticketed Logan Pass shuttle ($1/ticket, Rec.gov; part of tickets 60 days ahead rolling at 8 am MDT from May 2, 2026; rest at 7 pm MDT for next-day entry from Jun 30; shuttle Jul 1-Sep 7, 2026) and 3-hour limited parking at Logan Pass. 2027: NO official announcement found (NPS says operations are typically announced in spring) - status UNKNOWN; do not assume.",
+          "release_time": "Shuttle (2026 only): 8:00 am MDT (60-day) / 7:00 pm MDT (next-day)",
+          "tz": "America/Denver (Mountain)",
+          "source": "https://www.nps.gov/glac/learn/news/glacier-national-park-announces-2026-summer-operations.htm",
+          "verified_on": "2026-10-01",
+          "kind": "system",
+          "status": "verified"
+        }
+      ],
+      "winter": {
+        "summary": "Winter is for quiet snowshoeing/skiing, not driving: Going-to-the-Sun Road is plowed/open only from West Glacier to Lake McDonald Lodge (to Avalanche Creek until ~mid-Dec); alpine sections close ~third Monday of October. St. Mary/Logan Pass visitor centers closed; no in-park lodging. Apgar Loop B is free primitive first-come camping Nov 1-Mar 31. Winter wilderness permits (Nov 1-Apr 30) are free, issued by email at least 7 days ahead.",
+        "notes": [
+          "GTSR open year-round West Glacier to Lake McDonald Lodge, weather permitting; unplowed section beyond is a popular ski/snowshoe route (NPS winter page - page last updated 2023-12-13, so re-check).",
+          "Alpine sections of GTSR typically close ~third Monday of October (NPS directions page excerpt); Nov-early Dec road open to Avalanche Creek, then closed at Lake McDonald Lodge from mid-December (NPS Nov/Dec page excerpt).",
+          "St. Mary and Logan Pass visitor centers closed; Apgar Visitor Center open weekends in winter per the 2023-dated page; no lodging in the park in winter.",
+          "Apgar Campground Loop B: primitive, first-come, no reservation needed, no charge from Nov 1 (open Nov 1-Mar 31 per reservation-campgrounds page, updated 2026-07-09); St. Mary partly open, no reservation in winter.",
+          "Winter wilderness permits Nov 1-Apr 30: free, by email request to glac_backcountry_permits@nps.gov at least 7 days before start; no permit office open (NPS page updated 2026-02-23). Note: the older winter page says in-person at Apgar up to 24h ahead - conflicting; use the newer page and confirm.",
+          "2026-27 winter-specific reservation dates beyond the above: none found."
+        ],
+        "sources": [
+          "https://www.nps.gov/glac/planyourvisit/winter.htm",
+          "https://www.nps.gov/glac/planyourvisit/winterbccamping.htm",
+          "https://www.nps.gov/glac/planyourvisit/directions.htm",
+          "https://www.nps.gov/glac/planyourvisit/visitinginnovember.htm",
+          "https://nps.gov/glac/planyourvisit/reservation-campgrounds.htm"
+        ],
+        "date_verified": "2026-10-01",
+        "status": "verified"
+      },
+      "calendar_events": [
+        {
+          "title": "Glacier: check campground 6-month rolling window + 4-day sites",
+          "start": "2026-11-01T08:00",
+          "tz": "America/Denver",
+          "rrule": "FREQ=MONTHLY;BYMONTHDAY=1",
+          "times_verified": false,
+          "tag": null
+        },
+        {
+          "title": "Glacier: wilderness early-access lottery (large groups 9-12) - Mar 1 (2026 date)",
+          "start": "2027-03-01",
+          "tz": "America/Denver",
+          "rrule": null,
+          "times_verified": true,
+          "tag": "[2027 DATE UNCONFIRMED]"
+        },
+        {
+          "title": "Glacier: wilderness early-access lottery (standard groups 1-8) - Mar 15 (2026 date)",
+          "start": "2027-03-15",
+          "tz": "America/Denver",
+          "rrule": null,
+          "times_verified": true,
+          "tag": "[2027 DATE UNCONFIRMED]"
+        }
+      ]
+    },
+    {
+      "id": "rocky-mountain",
+      "name": "Rocky Mountain NP",
+      "tz": "America/Denver",
+      "sources": [
+        "https://www.nps.gov/romo/planyourvisit/timed-entry-permit-system.htm"
+      ],
+      "date_verified": "2026-10-01",
+      "rules": [
+        {
+          "what": "Timed entry (2026 season)",
+          "type": "timed entry",
+          "kind": "system",
+          "rule": "Timed entry reservation needed to enter 9 am-2 pm daily May 22-Oct 12, 2026; 'Timed Entry + Bear Lake Road' needed for Bear Lake Rd corridor 5 am-6 pm daily May 22-Oct 18, 2026. 2-hour windows, $2 Rec.gov fee. Release: May 1 (May 22-Jun 30), Jun 1 (Jul), Jul 1 (Aug), Aug 1 (Sep), Sep 1 (Oct 1-18), each 8 am MDT; 40% of each day's reservations released 7 pm MDT the night before. Campground/wilderness reservation holders do not need a separate timed entry. 2027 dates NOT published - do not assume a repeat.",
+          "release_time": "8:00 am (monthly); 7:00 pm (night before)",
+          "tz": "America/Denver (MDT)",
+          "source": "https://www.nps.gov/romo/planyourvisit/timed-entry-permit-system.htm",
+          "verified_on": "2026-10-01",
+          "status": "verified"
+        }
+      ],
+      "winter": {
+        "summary": "Timed entry applies only mid/late May to mid-October (2026); no timed entry in winter. Winter road, campground and trail details NOT verified. Trail Ridge Road status line: (970) 586-1222.",
+        "notes": [
+          "NPS timed entry page (updated 2026-05-14); information office winter hours listed."
+        ],
+        "sources": [
+          "https://www.nps.gov/romo/planyourvisit/timed-entry-permit-system.htm"
+        ],
+        "date_verified": "2026-10-01",
+        "status": "partial"
+      },
+      "calendar_events": [
+        {
+          "title": "Rocky Mountain: monthly timed-entry release (2026 pattern)",
+          "start": "2027-05-01T08:00",
+          "tz": "America/Denver",
+          "rrule": "FREQ=YEARLY;BYMONTH=5,6,7,8,9;BYMONTHDAY=1",
+          "times_verified": true,
+          "tag": "[2027 DATES UNCONFIRMED]"
+        }
+      ]
+    },
+    {
+      "id": "arches",
+      "name": "Arches NP",
+      "tz": "America/Denver",
+      "sources": [
+        "https://www.nps.gov/arch/learn/news/news02182026.htm",
+        "https://www.nps.gov/orgs/1207/national-park-service-expands-access-for-summer-2026-while-maintaining-safety-at-high-visitation-parks.htm"
+      ],
+      "date_verified": "2026-10-01",
+      "rules": [
+        {
+          "what": "Timed entry",
+          "type": "timed entry (suspended 2026)",
+          "kind": "system",
+          "rule": "NPS (2026-02-18): NO timed-entry reservation in 2026; enter any time during operating hours. Entrance pass still required. 2027 plan not announced (a 2025 pilot required tickets 7 am-4 pm through Oct 31, 2025; do not assume).",
+          "release_time": "n/a",
+          "tz": "n/a",
+          "source": "https://www.nps.gov/arch/learn/news/news02182026.htm",
+          "verified_on": "2026-10-01",
+          "status": "verified"
+        },
+        {
+          "what": "Devils Garden Campground + Fiery Furnace hikes",
+          "type": "reservation",
+          "kind": "system",
+          "rule": "Reservations still required for Devils Garden Campground and for self-guided and ranger-led Fiery Furnace hikes (NPS 2026-02-18). Booking windows/release times NOT found on fetched official text.",
+          "release_time": "UNVERIFIED",
+          "tz": "UNVERIFIED",
+          "source": "https://www.nps.gov/arch/learn/news/news02182026.htm",
+          "verified_on": "2026-10-01",
+          "status": "partial"
+        }
+      ],
+      "winter": {
+        "summary": "Winter details NOT researched (UNVERIFIED).",
+        "notes": [
+          "Not researched."
+        ],
+        "sources": [],
+        "date_verified": "2026-10-01",
+        "status": "unverified"
+      },
+      "calendar_events": [
+        {
+          "title": "Arches NP: check booking windows / permit rules",
+          "start": "2026-11-01T09:00",
+          "tz": "America/Denver",
+          "rrule": "FREQ=MONTHLY;BYMONTHDAY=1",
+          "times_verified": false,
+          "tag": null
+        }
+      ]
+    },
+    {
+      "id": "haleakala",
+      "name": "Haleakala NP",
+      "tz": "Pacific/Honolulu",
+      "sources": [
+        "https://www.nps.gov/hale/planyourvisit/haleakala-sunrise-reservations-faq.htm",
+        "https://www.recreation.gov/ticket/facility/253731"
+      ],
+      "date_verified": "2026-10-01",
+      "rules": [
+        {
+          "what": "Summit sunrise reservation (year-round)",
+          "type": "timed entry (daily rolling)",
+          "kind": "system",
+          "rule": "Required per vehicle entering the summit district 3:00-7:00 am; $1 per vehicle on Recreation.gov. Released 60 days ahead at 7:00 am HST (inventory renews daily, often sells out within ~15 min); a portion also released 2 days ahead at 7:00 am HST. Entrance fee separate; 150 vehicles. Not sold at the park or by phone (NPS FAQ page updated 2024-04-23).",
+          "release_time": "7:00 am",
+          "tz": "Pacific/Honolulu (HST)",
+          "source": "https://www.nps.gov/hale/planyourvisit/haleakala-sunrise-reservations-faq.htm",
+          "verified_on": "2026-10-01",
+          "status": "verified"
+        }
+      ],
+      "winter": {
+        "summary": "Sunrise reservations are required year-round for 3-7 am summit entry ($1, 60 days ahead at 7 am HST).",
+        "notes": [
+          "NPS FAQ + Rec.gov: required Jan 1-Dec 31."
+        ],
+        "sources": [
+          "https://www.nps.gov/hale/planyourvisit/haleakala-sunrise-reservations-faq.htm",
+          "https://www.nps.gov/hale/planyourvisit/fees.htm"
+        ],
+        "date_verified": "2026-10-01",
+        "status": "verified"
+      },
+      "calendar_events": [
+        {
+          "title": "Haleakala: sunrise reservations (60-day) release 7am HST",
+          "start": "2026-10-02T07:00",
+          "tz": "Pacific/Honolulu",
+          "rrule": "FREQ=DAILY",
+          "times_verified": true,
+          "tag": null
+        }
+      ]
+    },
+    {
+      "id": "acadia",
+      "name": "Acadia NP",
+      "tz": "America/New_York",
+      "sources": [
+        "https://www.nps.gov/acad/planyourvisit/vehicle_reservations.htm",
+        "https://www.recreation.gov/timed-entry/400000"
+      ],
+      "date_verified": "2026-10-01",
+      "rules": [
+        {
+          "what": "Cadillac Summit Road vehicle reservation (2026: May 20-Oct 25)",
+          "type": "timed entry (rolling)",
+          "kind": "system",
+          "rule": "$6 per vehicle on Recreation.gov. 30% of Sunrise + Daytime reservations released 90 days ahead at 10 am ET; 70% released 10 am ET two days ahead. Sunrise 90-min windows (one per vehicle per 7 days); Daytime 30-min windows. 2027 season dates NOT published.",
+          "release_time": "10:00 am",
+          "tz": "America/New_York (ET)",
+          "source": "https://www.nps.gov/acad/planyourvisit/vehicle_reservations.htm",
+          "verified_on": "2026-10-01",
+          "status": "verified"
+        }
+      ],
+      "winter": {
+        "summary": "Cadillac vehicle reservations are only needed May 20-Oct 25 (2026 dates). An older NPS page (2023) says the summit road opens mid-April and closes no later than Dec 1; winter details not verified.",
+        "notes": [
+          "NPS Cadillac reservations page (updated 2025-11-25); thingstodo page last updated 2023-08-16 (stale)."
+        ],
+        "sources": [
+          "https://www.nps.gov/acad/planyourvisit/vehicle_reservations.htm",
+          "https://www.nps.gov/thingstodo/drive-cadillac-mountain.htm"
+        ],
+        "date_verified": "2026-10-01",
+        "status": "partial"
+      },
+      "calendar_events": [
+        {
+          "title": "Acadia: Cadillac Summit Road 2-day-ahead reservations release 10am ET",
+          "start": "2026-10-02T10:00",
+          "tz": "America/New_York",
+          "rrule": "FREQ=DAILY;UNTIL=20261023T140000Z",
+          "times_verified": true,
+          "tag": null
+        }
+      ]
+    },
+    {
+      "id": "mount-rainier",
+      "name": "Mount Rainier NP",
+      "tz": "America/Los_Angeles",
+      "sources": [
+        "https://www.nps.gov/mora/learn/news/mount-rainier-national-park-will-not-require-timed-entry-reservations-in-2026.htm",
+        "https://www.nps.gov/mora/planyourvisit/the-wonderland-trail.htm",
+        "https://www.nps.gov/mora/planyourvisit/upload/2026-Summer-Fall-News_508_Final.pdf"
+      ],
+      "date_verified": "2026-10-01",
+      "rules": [
+        {
+          "what": "Timed entry (Paradise / Sunrise)",
+          "type": "timed entry (suspended 2026)",
+          "kind": "system",
+          "rule": "NPS news release 2026-02-25: NO timed entry for any part of the park in 2026. 2027 status not announced.",
+          "release_time": "n/a",
+          "tz": "n/a",
+          "source": "https://www.nps.gov/mora/learn/news/mount-rainier-national-park-will-not-require-timed-entry-reservations-in-2026.htm",
+          "verified_on": "2026-10-01",
+          "status": "verified-snippet"
+        },
+        {
+          "what": "Wilderness permits (incl. Wonderland Trail)",
+          "type": "permit (advance + walk-up)",
+          "kind": "system",
+          "rule": "Permit required for all overnight wilderness camping (and glacier travel / above 10,000 ft). ~2/3 of summer permits are advance-reservable on Recreation.gov for peak season (June-September), at least 2 days before the trip; ~1/3 are first-come at a Wilderness Information Center (NPS 2026 Tahoma Woods newsletter). Wonderland Trail: designated camps only (NPS page updated 2026-07-23). Advance-reservation release date/time and any lottery NOT found in fetched official text.",
+          "release_time": "UNVERIFIED",
+          "tz": "UNVERIFIED",
+          "source": "https://www.nps.gov/mora/planyourvisit/upload/2026-Summer-Fall-News_508_Final.pdf",
+          "verified_on": "2026-10-01",
+          "status": "partial"
+        }
+      ],
+      "winter": {
+        "summary": "Winter details NOT researched (UNVERIFIED).",
+        "notes": [
+          "Not researched."
+        ],
+        "sources": [],
+        "date_verified": "2026-10-01",
+        "status": "unverified"
+      },
+      "calendar_events": [
+        {
+          "title": "Mount Rainier NP: check booking windows / permit rules",
+          "start": "2026-11-01T09:00",
+          "tz": "America/Los_Angeles",
+          "rrule": "FREQ=MONTHLY;BYMONTHDAY=1",
+          "times_verified": false,
+          "tag": null
+        }
+      ]
+    },
+    {
+      "id": "shenandoah",
+      "name": "Shenandoah NP",
+      "tz": "America/New_York",
+      "sources": [
+        "https://www.nps.gov/shen/planyourvisit/faqs-oldrag.htm",
+        "https://www.recreation.gov/ticket/facility/10088450"
+      ],
+      "date_verified": "2026-10-01",
+      "rules": [
+        {
+          "what": "Old Rag day-use ticket",
+          "type": "timed entry (daily rolling)",
+          "kind": "system",
+          "rule": "$2 ticket required Mar 1-Nov 30 (not Dec-Feb); 800 tickets/day: 400 released 30 days ahead and 400 released 5 days ahead, daily at 10:00 am (Recreation.gov states EST); leftovers may sell the day of. Park entrance pass also required. Sold online only (no service at Old Rag station). First-week-of-February on-sale for the season per NPS FAQ - 2027 on-sale date not confirmed.",
+          "release_time": "10:00 am",
+          "tz": "America/New_York (Recreation.gov says EST)",
+          "source": "https://www.nps.gov/shen/planyourvisit/faqs-oldrag.htm",
+          "verified_on": "2026-10-01",
+          "status": "verified-snippet"
+        }
+      ],
+      "winter": {
+        "summary": "Old Rag day-use tickets are not required December-February (entrance pass still is).",
+        "notes": [
+          "NPS Old Rag FAQ + Rec.gov (search-result excerpts)."
+        ],
+        "sources": [
+          "https://www.nps.gov/shen/planyourvisit/faqs-oldrag.htm",
+          "https://www.recreation.gov/ticket/facility/10088450"
+        ],
+        "date_verified": "2026-10-01",
+        "status": "partial"
+      },
+      "calendar_events": [
+        {
+          "title": "Shenandoah: Old Rag day-use tickets go on sale for season (NPS: first week of Feb)",
+          "start": "2027-02-01T10:00",
+          "tz": "America/New_York",
+          "rrule": null,
+          "times_verified": true,
+          "tag": "[2027 DATE UNCONFIRMED]"
+        }
+      ]
+    },
+    {
+      "id": "great-smoky",
+      "name": "Great Smoky Mountains NP",
+      "tz": "America/New_York",
+      "sources": [
+        "https://www.nps.gov/grsm/planyourvisit/frontcountry-camping.htm"
+      ],
+      "date_verified": "2026-10-01",
+      "rules": [
+        {
+          "what": "Frontcountry campgrounds (10; Cades Cove + Smokemont open year-round)",
+          "type": "rolling",
+          "kind": "campground",
+          "rule": "NPS (page updated 2026-08-12): advance reservations required for frontcountry, group and horse sites via Recreation.gov / 877-444-6777. A search-result excerpt of the NPS Elkmont page says up to 6 months ahead (not confirmed on fetched text). 14 consecutive days / 60 per year limit. Parking tag not needed at your own site.",
+          "release_time": "UNVERIFIED",
+          "tz": "UNVERIFIED",
+          "source": "https://www.nps.gov/grsm/planyourvisit/frontcountry-camping.htm",
+          "verified_on": "2026-10-01",
+          "status": "partial"
+        }
+      ],
+      "winter": {
+        "summary": "Cades Cove and Smokemont campgrounds are open year-round; the other eight are seasonal. Reservations required.",
+        "notes": [
+          "NPS frontcountry camping page (updated 2026-08-12)."
+        ],
+        "sources": [
+          "https://www.nps.gov/grsm/planyourvisit/frontcountry-camping.htm"
+        ],
+        "date_verified": "2026-10-01",
+        "status": "partial"
+      },
+      "calendar_events": [
+        {
+          "title": "Great Smoky Mountains NP: check booking windows / permit rules",
+          "start": "2026-11-01T09:00",
+          "tz": "America/New_York",
+          "rrule": "FREQ=MONTHLY;BYMONTHDAY=1",
+          "times_verified": false,
+          "tag": null
+        }
+      ]
+    },
+    {
+      "id": "olympic",
+      "name": "Olympic NP",
+      "tz": "America/Los_Angeles",
+      "sources": [
+        "https://www.nps.gov/olym/planyourvisit/wilderness-reservations.htm"
+      ],
+      "date_verified": "2026-10-01",
+      "rules": [
+        {
+          "what": "Wilderness backpacking permits (quota areas e.g. Ozette Coast, Royal Basin, Sol Duc/Seven Lakes, Hoh River, Enchanted Valley)",
+          "type": "permit (annual release)",
+          "kind": "system",
+          "rule": "Permits required year-round, booked on Recreation.gov (no trailhead self-registration, no same-day walk-up holds). Summer season (May 15-Oct 15) reservations released April 15 at 7:00 am Pacific (page updated 2026-02-12; the page does not name a year, so confirm 2027 each spring). $8/person/night (16+) + $6 reservation fee. High-elevation areas only reservable online ~mid-July to mid-October.",
+          "release_time": "7:00 am",
+          "tz": "America/Los_Angeles (Pacific)",
+          "source": "https://www.nps.gov/olym/planyourvisit/wilderness-reservations.htm",
+          "verified_on": "2026-10-01",
+          "status": "verified"
+        }
+      ],
+      "winter": {
+        "summary": "Wilderness permits are required year-round; high-elevation areas are only reservable online mid-July to mid-October (call the Wilderness Information Center otherwise, 360-565-3100).",
+        "notes": [
+          "NPS wilderness reservations page (updated 2026-02-12)."
+        ],
+        "sources": [
+          "https://www.nps.gov/olym/planyourvisit/wilderness-reservations.htm"
+        ],
+        "date_verified": "2026-10-01",
+        "status": "verified"
+      },
+      "calendar_events": [
+        {
+          "title": "Olympic: summer wilderness permit reservations release",
+          "start": "2027-04-15T07:00",
+          "tz": "America/Los_Angeles",
+          "rrule": "FREQ=YEARLY;BYMONTH=4;BYMONTHDAY=15",
+          "times_verified": true,
+          "tag": "[2027 DATE: CONFIRM EACH SPRING]"
+        }
+      ]
+    },
+    {
+      "id": "joshua-tree",
+      "name": "Joshua Tree NP",
+      "tz": "America/Los_Angeles",
+      "sources": [
+        "https://nps.gov/jotr/planyourvisit/campgrounds.htm"
+      ],
+      "date_verified": "2026-10-01",
+      "rules": [
+        {
+          "what": "Reservation campgrounds (Black Rock, Cottonwood, Indian Cove, Jumbo Rocks, Ryan, Sheep Pass group)",
+          "type": "rolling",
+          "kind": "campground",
+          "rule": "Reservable same day up to 6 months ahead on Recreation.gov (NPS page updated 2026-08-16). Hidden Valley, White Tank, Belle are first-come, first-served. Release time of day NOT stated.",
+          "release_time": "UNVERIFIED",
+          "tz": "UNVERIFIED",
+          "source": "https://nps.gov/jotr/planyourvisit/campgrounds.htm",
+          "verified_on": "2026-10-01",
+          "status": "partial"
+        }
+      ],
+      "winter": {
+        "summary": "Busy season runs October-May; park campgrounds are usually full on weekends September-May and first-come sites fill by Friday afternoon. Reserve (up to 6 months ahead).",
+        "notes": [
+          "NPS campgrounds page (updated 2026-08-16): busy spring season October-May; first-come sites full most weeknights mid-Feb to mid-May."
+        ],
+        "sources": [
+          "https://nps.gov/jotr/planyourvisit/campgrounds.htm"
+        ],
+        "date_verified": "2026-10-01",
+        "status": "partial"
+      },
+      "calendar_events": [
+        {
+          "title": "Joshua Tree NP: check booking windows / permit rules",
+          "start": "2026-11-01T09:00",
+          "tz": "America/Los_Angeles",
+          "rrule": "FREQ=MONTHLY;BYMONTHDAY=1",
+          "times_verified": false,
+          "tag": null
+        }
+      ]
+    },
+    {
+      "id": "death-valley",
+      "name": "Death Valley NP",
+      "tz": "America/Los_Angeles",
+      "sources": [
+        "https://www.nps.gov/deva/planyourvisit/camping-in-death-valley.htm"
+      ],
+      "date_verified": "2026-10-01",
+      "rules": [
+        {
+          "what": "Furnace Creek Campground (Oct 15-Apr 15 season)",
+          "type": "rolling",
+          "kind": "campground",
+          "rule": "Only reservable NPS campground: bookable on Recreation.gov up to 6 months ahead for Oct 15-Apr 15; all other NPS campgrounds are first-come, first-served; in summer all open campgrounds are first-come (page updated 2025-09-18). Release time NOT stated.",
+          "release_time": "UNVERIFIED",
+          "tz": "UNVERIFIED",
+          "source": "https://www.nps.gov/deva/planyourvisit/camping-in-death-valley.htm",
+          "verified_on": "2026-10-01",
+          "status": "partial"
+        }
+      ],
+      "winter": {
+        "summary": "Winter/spring (mid-Oct to mid-April) is the busy, comfortable season: Furnace Creek and Texas Springs usually full on weekends/holidays; Sunset (largest) almost always has sites. Furnace Creek is reservable up to 6 months ahead; Sunset, Stovepipe Wells and Texas Springs typically close April 15.",
+        "notes": [
+          "NPS camping page (updated 2025-09-18): winter/spring Oct-Apr; reservations only at Furnace Creek (Oct 15-Apr 15, 6 months ahead); others first-come, pay at kiosk."
+        ],
+        "sources": [
+          "https://www.nps.gov/deva/planyourvisit/camping-in-death-valley.htm"
+        ],
+        "date_verified": "2026-10-01",
+        "status": "partial"
+      },
+      "calendar_events": [
+        {
+          "title": "Death Valley NP: check booking windows / permit rules",
+          "start": "2026-11-01T09:00",
+          "tz": "America/Los_Angeles",
+          "rrule": "FREQ=MONTHLY;BYMONTHDAY=1",
+          "times_verified": false,
+          "tag": null
+        }
+      ]
+    },
+    {
+      "id": "bryce-canyon",
+      "name": "Bryce Canyon NP",
+      "tz": "America/Denver",
+      "sources": [
+        "https://www.nps.gov/brca/planyourvisit/campgrounds.htm?fullweb=1"
+      ],
+      "date_verified": "2026-10-01",
+      "rules": [
+        {
+          "what": "North Campground (year-round) / Sunset Campground (closed in winter)",
+          "type": "rolling",
+          "kind": "campground",
+          "rule": "North: up to 6-month advance reservations on Recreation.gov for all of 2026 dates. Sunset: up to 14-day advance reservations (peak May 17-Oct 11, 2026; closed ~Oct 12-Apr 14). Release time NOT stated; 2027 season dates not on page.",
+          "release_time": "UNVERIFIED",
+          "tz": "UNVERIFIED",
+          "source": "https://www.nps.gov/brca/planyourvisit/campgrounds.htm?fullweb=1",
+          "verified_on": "2026-10-01",
+          "status": "partial"
+        }
+      ],
+      "winter": {
+        "summary": "North Campground is open year-round (reservable 6 months ahead). Sunset Campground is closed in winter (about Oct 12-Apr 14 in the 2025-26 text); shuttle runs mid-April to mid-October.",
+        "notes": [
+          "NPS campgrounds page (undated, 2026 season text)."
+        ],
+        "sources": [
+          "https://www.nps.gov/brca/planyourvisit/campgrounds.htm?fullweb=1"
+        ],
+        "date_verified": "2026-10-01",
+        "status": "partial"
+      },
+      "calendar_events": [
+        {
+          "title": "Bryce Canyon NP: check booking windows / permit rules",
+          "start": "2026-11-01T09:00",
+          "tz": "America/Denver",
+          "rrule": "FREQ=MONTHLY;BYMONTHDAY=1",
+          "times_verified": false,
+          "tag": null
+        }
+      ]
+    },
+    {
+      "id": "capitol-reef",
+      "name": "Capitol Reef NP",
+      "tz": "America/Denver",
+      "sources": [
+        "https://nps.gov/care/planyourvisit/fruitacampground.htm"
+      ],
+      "date_verified": "2026-10-01",
+      "rules": [
+        {
+          "what": "Fruita Campground (71 sites, year-round, 100% reservation)",
+          "type": "rolling",
+          "kind": "campground",
+          "rule": "Reservations accepted 6 months ahead on Recreation.gov (NPS page updated 2026-04-01). Busy mid-March-October; easy in winter, cancellations rebookable even same day. Release time NOT stated.",
+          "release_time": "UNVERIFIED",
+          "tz": "UNVERIFIED",
+          "source": "https://nps.gov/care/planyourvisit/fruitacampground.htm",
+          "verified_on": "2026-10-01",
+          "status": "partial"
+        }
+      ],
+      "winter": {
+        "summary": "Winter demand is low: Fruita Campground (open year-round) is easy to book and cancellations rebook even same day; stay limit is 30 days Dec 1-Feb 28.",
+        "notes": [
+          "NPS Fruita page (updated 2026-04-01)."
+        ],
+        "sources": [
+          "https://nps.gov/care/planyourvisit/fruitacampground.htm"
+        ],
+        "date_verified": "2026-10-01",
+        "status": "verified"
+      },
+      "calendar_events": [
+        {
+          "title": "Capitol Reef NP: check booking windows / permit rules",
+          "start": "2026-11-01T09:00",
+          "tz": "America/Denver",
+          "rrule": "FREQ=MONTHLY;BYMONTHDAY=1",
+          "times_verified": false,
+          "tag": null
+        }
+      ]
+    },
+    {
+      "id": "canyonlands",
+      "name": "Canyonlands NP",
+      "tz": "America/Denver",
+      "sources": [
+        "https://nps.gov/cany/planyourvisit/camping.htm",
+        "https://www.recreation.gov/camping/campgrounds/251535"
+      ],
+      "date_verified": "2026-10-01",
+      "rules": [
+        {
+          "what": "Needles campground (Loop B) / Island in the Sky (Willow Flat)",
+          "type": "rolling",
+          "kind": "campground",
+          "rule": "Search-result excerpts of NPS/Rec.gov pages: Needles Loop B reservable up to 6 months ahead (mid-Mar-mid-Nov), Loop A first-come; Willow Flat (Island in the Sky) first-come, first-served. Pages themselves NOT fully fetched; backcountry permit system not researched.",
+          "release_time": "UNVERIFIED",
+          "tz": "UNVERIFIED",
+          "source": "https://nps.gov/cany/planyourvisit/camping.htm",
+          "verified_on": "2026-10-01",
+          "status": "unverified"
+        }
+      ],
+      "winter": {
+        "summary": "Winter details NOT researched (UNVERIFIED).",
+        "notes": [
+          "Not researched."
+        ],
+        "sources": [],
+        "date_verified": "2026-10-01",
+        "status": "unverified"
+      },
+      "calendar_events": [
+        {
+          "title": "Canyonlands NP: check booking windows / permit rules",
+          "start": "2026-11-01T09:00",
+          "tz": "America/Denver",
+          "rrule": "FREQ=MONTHLY;BYMONTHDAY=1",
+          "times_verified": false,
+          "tag": null
+        }
+      ]
+    },
+    {
+      "id": "sequoia-kings",
+      "name": "Sequoia & Kings Canyon NP",
+      "tz": "America/Los_Angeles",
+      "sources": [
+        "https://www.nps.gov/seki/planyourvisit/campgrounds.htm"
+      ],
+      "date_verified": "2026-10-01",
+      "rules": [
+        {
+          "what": "Campgrounds (14; two open year-round)",
+          "type": "rolling",
+          "kind": "campground",
+          "rule": "NPS (page updated 2026-03-21): nearly all campgrounds require advance reservations via Recreation.gov; South Fork campground closed indefinitely. Booking windows (e.g. Lodgepole ~4 months) NOT on the fetched text - unverified. Mount Whitney permits are U.S. Forest Service (out of scope).",
+          "release_time": "UNVERIFIED",
+          "tz": "UNVERIFIED",
+          "source": "https://www.nps.gov/seki/planyourvisit/campgrounds.htm",
+          "verified_on": "2026-10-01",
+          "status": "partial"
+        }
+      ],
+      "winter": {
+        "summary": "Two of the 14 campgrounds are open all four seasons (NPS); foothills get light snow, Grant Grove is usually snow-covered in winter. Which two campgrounds is NOT stated on the fetched text.",
+        "notes": [
+          "NPS camping page (updated 2026-03-21)."
+        ],
+        "sources": [
+          "https://www.nps.gov/seki/planyourvisit/campgrounds.htm"
+        ],
+        "date_verified": "2026-10-01",
+        "status": "partial"
+      },
+      "calendar_events": [
+        {
+          "title": "Sequoia & Kings Canyon NP: check booking windows / permit rules",
+          "start": "2026-11-01T09:00",
+          "tz": "America/Los_Angeles",
+          "rrule": "FREQ=MONTHLY;BYMONTHDAY=1",
+          "times_verified": false,
+          "tag": null
+        }
+      ]
+    },
+    {
+      "id": "denali",
+      "name": "Denali NP & Preserve",
+      "tz": "America/Anchorage",
+      "sources": [
+        "https://nps.gov/dena/planyourvisit/campgrounds.htm"
+      ],
+      "date_verified": "2026-10-01",
+      "rules": [
+        {
+          "what": "Campground reservations (concessioner, not NPS)",
+          "type": "annual open date",
+          "kind": "campground",
+          "rule": "Reservations can be made as early as December 1 of the year before the visit via the concessioner (Doyon/ARAMARK, 1-800-622-7275); NPS does not handle them (page updated 2025-06-02). Wonder Lake closed through 2026. Teklanika: 3-night minimum if driving in. Release time/timezone NOT stated.",
+          "release_time": "UNVERIFIED",
+          "tz": "UNVERIFIED (Alaska time presumed)",
+          "source": "https://nps.gov/dena/planyourvisit/campgrounds.htm",
+          "verified_on": "2026-10-01",
+          "status": "partial"
+        }
+      ],
+      "winter": {
+        "summary": "Camping is free in winter (roughly late Sept-early May); Riley Creek is the only year-round campground.",
+        "notes": [
+          "NPS campgrounds page (updated 2025-06-02): camping free in winter; Riley Creek open year-round (fees only in summer); all other campgrounds summer only."
+        ],
+        "sources": [
+          "https://nps.gov/dena/planyourvisit/campgrounds.htm"
+        ],
+        "date_verified": "2026-10-01",
+        "status": "partial"
+      },
+      "calendar_events": [
+        {
+          "title": "Denali: campground reservations open for next summer (concessioner)",
+          "start": "2026-12-01T08:00",
+          "tz": "America/Anchorage",
+          "rrule": "FREQ=YEARLY;BYMONTH=12;BYMONTHDAY=1",
+          "times_verified": false,
+          "tag": null
+        }
+      ]
+    },
+    {
+      "id": "yellowstone",
+      "name": "Yellowstone NP",
+      "tz": "America/Denver",
+      "sources": [
+        "https://www.nps.gov/yell/planyourvisit/operating-dates.htm"
+      ],
+      "date_verified": "2026-10-01",
+      "rules": [
+        {
+          "what": "Campgrounds (Madison, Bridge Bay, Canyon, Grant Village, etc.)",
+          "type": "rolling",
+          "kind": "campground",
+          "rule": "NPS operating-dates table (updated 2026-09-28) lists 2026 campground seasons, e.g. Madison May 1-Oct 17, Bridge Bay May 15-Sep 13, Canyon May 29-Sep 19, Grant Village Jun 26-Sep 26 (fetched table was partly garbled; confirm on page). Reservation windows/release times are NOT on that page (concessioner site only seen via search result) - UNVERIFIED. Backcountry permit rules not researched.",
+          "release_time": "UNVERIFIED",
+          "tz": "UNVERIFIED",
+          "source": "https://www.nps.gov/yell/planyourvisit/operating-dates.htm",
+          "verified_on": "2026-10-01",
+          "status": "unverified"
+        }
+      ],
+      "winter": {
+        "summary": "Few facilities are open year-round and services are limited from early November through late April (NPS). Campgrounds are summer-season; check operating dates.",
+        "notes": [
+          "NPS operating-dates page (updated 2026-09-28): few facilities open year-round; services limited early Nov-late April; open 24/7 365 days, road statuses change quickly."
+        ],
+        "sources": [
+          "https://www.nps.gov/yell/planyourvisit/operating-dates.htm"
+        ],
+        "date_verified": "2026-10-01",
+        "status": "partial"
+      },
+      "calendar_events": [
+        {
+          "title": "Yellowstone NP: check booking windows / permit rules",
+          "start": "2026-11-01T09:00",
+          "tz": "America/Denver",
+          "rrule": "FREQ=MONTHLY;BYMONTHDAY=1",
+          "times_verified": false,
+          "tag": null
+        }
+      ]
+    },
+    {
+      "id": "grand-teton",
+      "name": "Grand Teton NP",
+      "tz": "America/Denver",
+      "sources": [
+        "https://nps.gov/grte/planyourvisit/bcres.htm"
+      ],
+      "date_verified": "2026-10-01",
+      "rules": [
+        {
+          "what": "Backcountry camping permits - peak season (May 1-Oct 31)",
+          "type": "permit (annual release + walk-up)",
+          "kind": "system",
+          "rule": "2026: advance reservations on Recreation.gov opened January 7, 2026 at 8:00 am MST for ~1/3 of permits (bookable up to 2 days before the trip start); ~2/3 are walk-up at a permit office, issued 1 day before. Pick up by 10 am on first night or it's cancelled. $20 permit + $7/person/night. Nov 1-Apr 30: permits by phone, 307-739-3309. NPS page updated 2026-06-09. 2027 opening date NOT published - do not assume Jan 7. (Page has a stray 'January 7, 2025' typo.)",
+          "release_time": "8:00 am (2026 date)",
+          "tz": "MST (America/Denver)",
+          "source": "https://nps.gov/grte/planyourvisit/bcres.htm",
+          "verified_on": "2026-10-01",
+          "status": "verified"
+        },
+        {
+          "what": "Jenny Lake campground (tent only)",
+          "type": "rolling",
+          "kind": "campground",
+          "rule": "Search-result excerpt of Recreation.gov: reservable up to 6 months ahead; early May-late Sept. Not confirmed on a fetched page.",
+          "release_time": "UNVERIFIED",
+          "tz": "UNVERIFIED",
+          "source": "https://www.recreation.gov/camping/campgrounds/247664",
+          "verified_on": "2026-10-01",
+          "status": "unverified"
+        }
+      ],
+      "winter": {
+        "summary": "Winter backcountry camping permits (Nov 1-Apr 30) are obtained by phone, 307-739-3309.",
+        "notes": [
+          "NPS backcountry permits page (updated 2026-06-09): non-peak Nov 1-Apr 30 permits by phone; permit emailed."
+        ],
+        "sources": [
+          "https://nps.gov/grte/planyourvisit/bcres.htm"
+        ],
+        "date_verified": "2026-10-01",
+        "status": "partial"
+      },
+      "calendar_events": [
+        {
+          "title": "Grand Teton: backcountry permit advance reservations open (2026 date: Jan 7)",
+          "start": "2027-01-07T08:00",
+          "tz": "America/Denver",
+          "rrule": null,
+          "times_verified": true,
+          "tag": "[2027 DATE UNCONFIRMED]"
+        }
+      ]
+    }
+  ]
+}

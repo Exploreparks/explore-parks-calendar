@@ -1,0 +1,89 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BookDay Parks//MVP//EN
+X-WR-CALNAME:BookDay: Grand Canyon NP
+BEGIN:VTIMEZONE
+TZID:America/Phoenix
+COMMENT:This timezone only works from 1970-01-01 to 2038-01-01.
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZNAME:MST
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0700
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Grand Canyon: backcountry early-access lottery OPENS (start month 
+ +5)
+DTSTART;VALUE=DATE:20261016
+DTSTAMP:20261001T000000Z
+UID:grand-canyon-b7162e801f@bookdayparks.example
+RRULE:FREQ=MONTHLY;BYMONTHDAY=16
+DESCRIPTION:Opens on the 16th (time not stated). Applies to start dates 5 
+ months out (Oct 16 -> March starts). recreation.gov/permits/4675337. Sourc
+ e: https://www.nps.gov/grca/planyourvisit/backcountry-permit.htm\n\nVerifi
+ ed 2026-10-01. Dates and rules change. Always verify on the official site 
+ before booking. Not affiliated with NPS or Recreation.gov.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Grand Canyon: backcountry early-access lottery OPENS (start mo
+ nth +5) - 1 day before
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Grand Canyon: backcountry early-access lottery OPENS (start mo
+ nth +5) - 15 minutes before
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Canyon: backcountry lottery CLOSES 5pm MST
+DTSTART;TZID=America/Phoenix:20261101T170000
+DTEND;TZID=America/Phoenix:20261101T173000
+DTSTAMP:20261001T000000Z
+UID:grand-canyon-7271d278d4@bookdayparks.example
+RRULE:FREQ=MONTHLY;BYMONTHDAY=1
+DESCRIPTION:Closes 5 pm MST on the 1st (Arizona = no DST). Source: https:/
+ /www.nps.gov/grca/planyourvisit/backcountry-permit.htm\n\nVerified 2026-10
+ -01. Dates and rules change. Always verify on the official site before boo
+ king. Not affiliated with NPS or Recreation.gov.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Grand Canyon: backcountry lottery CLOSES 5pm MST - 1 day befor
+ e
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Grand Canyon: backcountry lottery CLOSES 5pm MST - 15 minutes 
+ before
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grand Canyon: backcountry permits open to public 8am MST
+DTSTART;TZID=America/Phoenix:20261101T080000
+DTEND;TZID=America/Phoenix:20261101T083000
+DTSTAMP:20261001T000000Z
+UID:grand-canyon-2a75a02c3d@bookdayparks.example
+RRULE:FREQ=MONTHLY;BYMONTHDAY=1
+DESCRIPTION:After-lottery public release 8 am MST on the 1st for remaining
+  space (start month 3 months out per NPS table). Source: https://www.nps.g
+ ov/grca/planyourvisit/backcountry-permit.htm\n\nVerified 2026-10-01. Dates
+  and rules change. Always verify on the official site before booking. Not 
+ affiliated with NPS or Recreation.gov.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Grand Canyon: backcountry permits open to public 8am MST - 1 d
+ ay before
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Grand Canyon: backcountry permits open to public 8am MST - 15 
+ minutes before
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
