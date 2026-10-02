@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Explore Parks | @parks_hq</title>
+<meta name="description" content="Free park planning tools and guides from Explore Parks (@parks_hq).">
+<style>
+  :root{--cream:#F3E9D2;--green:#2F4A34;--orange:#C65D21;--card:#FBF5E6;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--cream);color:var(--green);font-family:Georgia,"Iowan Old Style","Palatino Linotype",serif;line-height:1.4}
+  .wrap{max-width:480px;margin:0 auto;padding:28px 18px 40px}
+  header{text-align:center;margin-bottom:26px}
+  .avatar{width:112px;height:112px;display:block;margin:0 auto 10px}
+  h1{margin:0;font-size:28px;letter-spacing:-.01em}
+  .handle{font:600 14px system-ui,sans-serif;color:var(--orange);margin:2px 0 10px}
+  .tag{margin:0;font-size:16px}
+  h2{font:800 12px/1 system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;margin:30px 0 12px;display:flex;align-items:center;gap:10px}
+  h2::after{content:"";flex:1;height:2px;background:var(--green);opacity:.25}
+  .link{display:block;text-decoration:none;color:var(--green);background:var(--card);border:2px solid var(--green);border-radius:14px;padding:14px 16px;margin-bottom:12px;box-shadow:3px 3px 0 var(--green);position:relative}
+  .link:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--green)}
+  .link:focus-visible{outline:3px solid var(--orange);outline-offset:3px}
+  .link .t{font-weight:700;font-size:17px;display:block}
+  .link .d{font:14px/1.35 system-ui,sans-serif;display:block;margin-top:3px;opacity:.9}
+  .link .go{font:700 13px system-ui,sans-serif;color:var(--orange);display:inline-block;margin-top:8px}
+  .product{display:flex;gap:14px;align-items:flex-start}
+  .product img{width:96px;height:auto;border-radius:6px;border:2px solid var(--green);flex:none;display:block;background:#fff}
+  .price{display:inline-block;background:var(--orange);color:var(--cream);font:800 13px system-ui,sans-serif;border-radius:999px;padding:4px 10px;margin-left:6px;vertical-align:2px}
+  .soon{border-style:dashed;box-shadow:none;background:transparent;opacity:.85}
+  .soon .badge{font:800 11px system-ui,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--orange);border:2px solid var(--orange);border-radius:999px;padding:3px 9px;position:absolute;top:12px;right:12px}
+  footer{text-align:center;font:13px system-ui,sans-serif;margin-top:34px;opacity:.8}
+  footer b{font-family:Georgia,serif;font-size:15px;opacity:1}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <img class="avatar" src="assets/official-logo-tm.png" alt="Explore Parks official logo patch">
+    <h1>Explore Parks</h1>
+    <p class="handle">@parks_hq</p>
+    <p class="tag">Go see something new. Wilderness &gt; Wireless.</p>
+  </header>
+
+  <h2>Free stuff</h2>
+
+  <a class="link" href="https://exploreparks.github.io/explore-parks-calendar/">
+    <span class="t">Big Bend campsite and permit reservation tool</span>
+    <span class="d">Want a Big Bend spot? This helps you keep an eye on campsites and permits so you don't miss one.</span>
+    <span class="go">Open the tool &rarr;</span>
+  </a>
+
+  <a class="link" href="free/mini-guide.pdf">
+    <span class="t">Free 2-park mini guide</span>
+    <span class="d">A quick taste of how we plan a park trip. Two parks, zero fluff.</span>
+    <span class="go">Download the PDF &rarr;</span>
+  </a>
+
+  <a class="link" href="free/checklist.pdf">
+    <span class="t">Free park checklist</span>
+    <span class="d">The stuff everybody forgets until they're an hour down the road. Print it or save it to your phone.</span>
+    <span class="go">Download the PDF &rarr;</span>
+  </a>
+
+  <h2>Worth a few bucks</h2>
+
+  <a class="link product" href="https://gumroad.com/l/dboym">
+    <img src="assets/cover.png" alt="Cover of The Best Time to Visit the Top 10 National Parks guide">
+    <span>
+      <span class="t">The Best Time to Visit the Top 10 National Parks<span class="price">$14.99</span></span>
+      <span class="d">Figure out when to go so you get the views and skip the headaches. Our guide for the top 10 parks.</span>
+      <span class="go">Get the guide &rarr;</span>
+    </span>
+  </a>
+
+  <div class="link soon" aria-disabled="true">
+    <span class="badge">Coming soon</span>
+    <span class="t">Explore Parks shirts</span>
+    <span class="d">We're working on them. Park gear for people who'd rather be outside.</span>
+  </div>
+
+  <footer>
+    <b>See you out there.</b><br>
+    Find us on X: @parks_hq
+  </footer>
+</main>
+</body>
+</html>
