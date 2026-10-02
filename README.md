@@ -1,4 +1,11 @@
-# Explore Parks booking-dates calendar (test site)
-Static site for GitHub Pages. Rules and sources are in data/parks.json. Dates change: always verify on the official NPS / Recreation.gov page.
-Held back until verified: ics/big-bend.ics and the combined all-parks.ics (release times unverified).
-TODO: replace YOUR_FORM_ID in index.html (two places) with the real Formspree/Buttondown form ID.
+# BookDay Parks: park booking reminders (test site)
+
+A static site for GitHub Pages. It gives you free calendar (.ics) files with reminders 1 day and 15 minutes before campsite and permit windows open at 22 national parks. It is a reminder tool only. It does not book anything. Bookings happen on Recreation.gov or the park's own page.
+
+- Rules, dates and sources for each park live in `data/parks.json`. Dates change, so always verify on the official NPS or Recreation.gov page.
+- Big Bend (`ics/big-bend.ics`) is published. It is one repeating reminder on the 1st of each month at 9:00 AM Central for Chisos Basin Campground and backcountry permit windows. The Chisos Basin release time was checked on Recreation.gov on 2026-10-01.
+- The combined all-parks download is still held back until it is checked against official sources.
+- Several parks use a placeholder "check the booking rules" reminder tagged [TIME UNVERIFIED]. Treat those times as placeholders.
+
+## Sign-up forms
+Both forms on `index.html` post to Formspree endpoint `xoevzrvp`. The old `YOUR_FORM_ID` placeholder is gone, but nobody has confirmed yet that `xoevzrvp` is a live form on Matt's Formspree account. To confirm, submit one test email from the live page and check that it arrives in Formspree. The hidden `list` field (`free-updates` or `paid-waitlist-15`) tells the two forms apart.
