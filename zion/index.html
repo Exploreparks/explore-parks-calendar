@@ -3,7 +3,8 @@
 <h1>Angels Landing Reservations</h1><p><b>Zion March 2027: permit lottery, camping, maps</b></p>
 <div id="status" style="background:#fff;border-left:6px solid #b5683a;padding:10px 12px;border-radius:6px">Checking lottery status...</div>
 <script>fetch('status.json?'+Date.now()).then(r=>r.json()).then(s=>{var e=document.getElementById('status');var lab={not_announced:'NOT ANNOUNCED YET',upcoming:'ANNOUNCED, OPENS SOON',open:'LOTTERY IS OPEN NOW',closed:'LOTTERY CLOSED',announced:'ANNOUNCED'}[s.state]||s.state;e.innerHTML='<b>Spring 2027 lottery: '+lab+'</b><br>'+s.note+'<br><small>Auto-checked '+s.checked.slice(0,10)+' from the NPS page. <a href="https://www.recreation.gov/permits/4675310">Apply on Recreation.gov</a></small>';if(s.state==='open')e.style.borderColor='#2f6b3f'}).catch(()=>{document.getElementById('status').innerHTML='Check the <a href="https://www.nps.gov/zion/planyourvisit/angels-landing-hiking-permits.htm">NPS page</a> for lottery dates.'})</script>
-<a class="btn" href="../ics/zion-march-2027.ics">Add all 3 reminders to my calendar</a>
+<div id="gate" style="background:#fff;border:2px solid #2f6b3f;border-radius:10px;padding:14px;margin:16px 0;text-align:center"><b>Free. Follow @parks_hq on X to unlock the full plan.</b><br><a class="btn" id="follow" href="https://x.com/intent/follow?screen_name=parks_hq" target="_blank" rel="noopener">Follow @parks_hq on X</a><small>Tap it, follow us, then come back to this page. The plan unlocks here.</small></div>
+<div id="locked" style="display:none"><a class="btn" href="../ics/zion-march-2027.ics">Add all 3 reminders to my calendar</a>
 <h2>Key dates</h2><ul>
 <li><b>Now (Oct 5 reminder):</b> Book Watchman Campground. Sites open 6 months before each night, so March 2027 is already bookable.</li>
 <li><b>Dec 15:</b> Check the official spring 2027 Angels Landing lottery dates.</li>
@@ -46,4 +47,4 @@
 <li><b>Sand Bench Trail:</b> follows the remains of an ancient landslide that dammed the Virgin River about 8,000 years ago and formed a lake that reached back to Angels Landing.</li>
 <li><b>Zion Canyon Shuttle:</b> free, no reservation needed, runs from the Visitor Center to the trailheads. Check the seasonal schedule.</li>
 <li><a href="https://www.nps.gov/zion/planyourvisit/zion-canyon-trail-descriptions.htm">All Zion Canyon trail descriptions (NPS)</a> and <a href="https://www.nps.gov/thingstodo/hike-angels-landing.htm">NPS Angels Landing page</a></li></ul>
-<small>Always confirm dates on the official NPS and Recreation.gov pages.</small></body></html>
+</div><small>Always confirm dates on the official NPS and Recreation.gov pages.</small><script>(function(){var g=document.getElementById('gate'),l=document.getElementById('locked');function unlock(){g.style.display='none';l.style.display='block'}if(localStorage.getItem('pq_follow')){unlock()}document.getElementById('follow').addEventListener('click',function(){localStorage.setItem('pq_follow','1');setTimeout(unlock,1500)})})()</script></body></html>
