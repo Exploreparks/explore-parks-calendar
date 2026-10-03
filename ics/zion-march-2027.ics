@@ -1,0 +1,157 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Explore Parks//Zion March 2027//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zion March 2027
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:zion-mar-2027-0@exploreparks
+DTSTAMP:20261003T160000Z
+DTSTART;TZID=America/Chicago:20261005T090000
+DTEND;TZID=America/Chicago:20261005T093000
+SUMMARY:Book Watchman Campground\, Zion\, for March 2027 (booking is open)
+LOCATION:https://www.recreation.gov/camping/campgrounds/232445
+URL:https://www.recreation.gov/camping/campgrounds/232445
+DESCRIPTION:Watchman Campground sites open 6 months before each arrival nig
+ ht on Recreation.gov\, so March 2027 nights are bookable NOW (March 1 open
+ ed Sept 1\, 2026\; March 31 opens Sept 30). Popular nights sell out. Book:
+  https://www.recreation.gov/camping/campgrounds/232445\n\nPair with the An
+ gels Landing permit: https://www.recreation.gov/permits/4675310 (2027 spri
+ ng lottery dates not announced yet).\n\nMAPS\n- Zion official maps page (p
+ ark map\, brochure\, pedestrian entrance map): https://www.nps.gov/zion/pl
+ anyourvisit/maps.htm\n- Spring Information Guide PDF (shuttle route map sh
+ owing South Entrance\, Visitor Center\, The Grotto/Angels Landing trailhea
+ d\, Watchman and South Campgrounds): https://www.nps.gov/zion/planyourvisi
+ t/upload/26-Spring-InfoGuide.pdf\n- Pedestrian entrance map and shuttle in
+ fo: https://www.nps.gov/zion/planyourvisit/zion-canyon-shuttle-system.htm\
+ n- Watchman Campground on Google Maps: https://www.google.com/maps/search/
+ ?api=1&query=Watchman+Campground+Zion+National+Park\n- South Campground on
+  Google Maps: https://www.google.com/maps/search/?api=1&query=South+Campgr
+ ound+Zion+National+Park\n- Zion Canyon Visitor Center (south entrance) on 
+ Google Maps: https://www.google.com/maps/search/?api=1&query=Zion+Canyon+V
+ isitor+Center\n- Angels Landing trailhead (The Grotto\, shuttle stop 6) on
+  Google Maps: https://www.google.com/maps/search/?api=1&query=The+Grotto+T
+ railhead+Zion+National+Park\n\nCAMPSITES\n- Watchman Campground (open year
+ -round\, near the south entrance\, walk to the shuttle). Sites book 6 mont
+ hs ahead: https://www.recreation.gov/camping/campgrounds/232445 (NPS page:
+  https://www.nps.gov/zion/planyourvisit/watchman-campground.htm)\n- South 
+ Campground (early March to October). Only bookable 14 days before arrival:
+  https://www.recreation.gov/camping/campgrounds/272266\n- Lava Point Campg
+ round (primitive\, higher up\, summer season): https://www.nps.gov/zion/pl
+ anyourvisit/camping-regulations.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Book Watchman Campground\, Zion\, for March 2027 (booking is op
+ en)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:zion-mar-2027-1@exploreparks
+DTSTAMP:20261003T160000Z
+DTSTART;TZID=America/Chicago:20261215T090000
+DTEND;TZID=America/Chicago:20261215T091500
+SUMMARY:Check Angels Landing spring 2027 lottery dates (NPS)
+LOCATION:https://www.nps.gov/zion/planyourvisit/angels-landing-hiking-permi
+ ts.htm
+URL:https://www.nps.gov/zion/planyourvisit/angels-landing-hiking-permits.ht
+ m
+DESCRIPTION:Confirm the official spring 2027 Angels Landing lottery dates (
+ hikes March 1 to May 31\, 2027): https://www.nps.gov/zion/planyourvisit/an
+ gels-landing-hiking-permits.htm\nApply on Recreation.gov: https://www.recr
+ eation.gov/permits/4675310\nAlso confirm your Watchman Campground booking:
+  https://www.recreation.gov/camping/campgrounds/232445\n\nMAPS\n- Zion off
+ icial maps page (park map\, brochure\, pedestrian entrance map): https://w
+ ww.nps.gov/zion/planyourvisit/maps.htm\n- Spring Information Guide PDF (sh
+ uttle route map showing South Entrance\, Visitor Center\, The Grotto/Angel
+ s Landing trailhead\, Watchman and South Campgrounds): https://www.nps.gov
+ /zion/planyourvisit/upload/26-Spring-InfoGuide.pdf\n- Pedestrian entrance 
+ map and shuttle info: https://www.nps.gov/zion/planyourvisit/zion-canyon-s
+ huttle-system.htm\n- Watchman Campground on Google Maps: https://www.googl
+ e.com/maps/search/?api=1&query=Watchman+Campground+Zion+National+Park\n- S
+ outh Campground on Google Maps: https://www.google.com/maps/search/?api=1&
+ query=South+Campground+Zion+National+Park\n- Zion Canyon Visitor Center (s
+ outh entrance) on Google Maps: https://www.google.com/maps/search/?api=1&q
+ uery=Zion+Canyon+Visitor+Center\n- Angels Landing trailhead (The Grotto\, 
+ shuttle stop 6) on Google Maps: https://www.google.com/maps/search/?api=1&
+ query=The+Grotto+Trailhead+Zion+National+Park\n\nCAMPSITES\n- Watchman Cam
+ pground (open year-round\, near the south entrance\, walk to the shuttle).
+  Sites book 6 months ahead: https://www.recreation.gov/camping/campgrounds
+ /232445 (NPS page: https://www.nps.gov/zion/planyourvisit/watchman-campgro
+ und.htm)\n- South Campground (early March to October). Only bookable 14 da
+ ys before arrival: https://www.recreation.gov/camping/campgrounds/272266\n
+ - Lava Point Campground (primitive\, higher up\, summer season): https://w
+ ww.nps.gov/zion/planyourvisit/camping-regulations.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Check Angels Landing spring 2027 lottery dates (NPS)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:zion-mar-2027-2@exploreparks
+DTSTAMP:20261003T160000Z
+DTSTART;TZID=America/Chicago:20270101T090000
+DTEND;TZID=America/Chicago:20270101T093000
+SUMMARY:Zion March 2027: Angels Landing spring lottery (watch for it to ope
+ n)
+LOCATION:https://www.recreation.gov/permits/4675310
+URL:https://www.recreation.gov/permits/4675310
+DESCRIPTION:ANGELS LANDING PERMIT (hikes March 1 to May 31\, 2027)\nApply (
+ Spring lottery): https://www.recreation.gov/permits/4675310\nOfficial info
+  and dates: https://www.nps.gov/zion/planyourvisit/angels-landing-hiking-p
+ ermits.htm\n\nThe 2027 spring lottery dates are NOT announced yet. The 202
+ 6 spring lottery ran Feb 13 to Feb 25. One third-party guide says Jan 1 to
+  Jan 20\, 2027\, so verify on the NPS page. The window is only about 12 da
+ ys.\n\nHow it works: $6 non-refundable application\, up to 6 people\, rank
+  up to 7 dates/times. Winners pay $3 per person. The confirmation email is
+  your permit\, so screenshot it. Backup: day-before lottery on Recreation.
+ gov\, 12:01 AM to 3 PM Mountain the day before. Hike starts at The Grotto 
+ (shuttle stop 6).\n\nMAPS\n- Zion official maps page (park map\, brochure\
+ , pedestrian entrance map): https://www.nps.gov/zion/planyourvisit/maps.ht
+ m\n- Spring Information Guide PDF (shuttle route map showing South Entranc
+ e\, Visitor Center\, The Grotto/Angels Landing trailhead\, Watchman and So
+ uth Campgrounds): https://www.nps.gov/zion/planyourvisit/upload/26-Spring-
+ InfoGuide.pdf\n- Pedestrian entrance map and shuttle info: https://www.nps
+ .gov/zion/planyourvisit/zion-canyon-shuttle-system.htm\n- Watchman Campgro
+ und on Google Maps: https://www.google.com/maps/search/?api=1&query=Watchm
+ an+Campground+Zion+National+Park\n- South Campground on Google Maps: https
+ ://www.google.com/maps/search/?api=1&query=South+Campground+Zion+National+
+ Park\n- Zion Canyon Visitor Center (south entrance) on Google Maps: https:
+ //www.google.com/maps/search/?api=1&query=Zion+Canyon+Visitor+Center\n- An
+ gels Landing trailhead (The Grotto\, shuttle stop 6) on Google Maps: https
+ ://www.google.com/maps/search/?api=1&query=The+Grotto+Trailhead+Zion+Natio
+ nal+Park\n\nCAMPSITES\n- Watchman Campground (open year-round\, near the s
+ outh entrance\, walk to the shuttle). Sites book 6 months ahead: https://w
+ ww.recreation.gov/camping/campgrounds/232445 (NPS page: https://www.nps.go
+ v/zion/planyourvisit/watchman-campground.htm)\n- South Campground (early M
+ arch to October). Only bookable 14 days before arrival: https://www.recrea
+ tion.gov/camping/campgrounds/272266\n- Lava Point Campground (primitive\, 
+ higher up\, summer season): https://www.nps.gov/zion/planyourvisit/camping
+ -regulations.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Zion March 2027: Angels Landing spring lottery (watch for it to
+  open)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
