@@ -1,3 +1,9 @@
+# Angels Landing Reservations (free)
+
+Free page and calendar reminders for hiking Angels Landing in Zion in March 2027: permit lottery link, campsite booking windows, maps, and a mini brochure. Live page: https://exploreparks.github.io/explore-parks-calendar/zion/
+
+A GitHub Action (`.github/workflows/angels-landing-lottery.yml`) checks the NPS page every day. When the spring 2027 lottery dates are posted or the lottery opens, it updates `zion/status.json` (which the page shows at the top) and opens a GitHub issue. It is a reminder tool only and never books anything; permits are applied for on Recreation.gov. Always verify dates on the official NPS page.
+
 # BookDay Parks: park booking reminders (test site)
 
 A static site for GitHub Pages. It gives you free calendar (.ics) files with reminders 1 day and 15 minutes before campsite and permit windows open at 22 national parks. It is a reminder tool only. It does not book anything. Bookings happen on Recreation.gov or the park's own page.
